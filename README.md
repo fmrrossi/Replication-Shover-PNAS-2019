@@ -38,7 +38,7 @@ replication-Bachhuber-PNAS-2017/
 ## How to reproduce
 
 
-1. Open R with the project folder (`replication-Bachhuber-PNAS-2017`) as the working directory, or open the folder as an RStudio project. All paths are built with `here()`, so nothing depends on where the folder sits on your computer.
+1. Open R with the project folder (`replication-Bachhuber-PNAS-2019`) as the working directory, or open the folder as an RStudio project. All paths are built with `here()`, so nothing depends on where the folder sits on your computer.
 2. Run the scripts in order:
 
 ```r
