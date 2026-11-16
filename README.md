@@ -18,8 +18,9 @@ Bachhuber et al. found that state medical cannabis laws were associated with 24.
 ## Repository structure
 
 ```
-replication-Bachhuber-PNAS-2017/
+replication-Shover-PNAS-2019/
 ├── README.md
+├── replication-Shover-PNAS-2019.Rproj
 ├── code/
 │   ├── 00_setup.R                  Loads packages and create folders
 │   ├── 01_cleaning.R               Import, clean and merge the data
@@ -30,15 +31,16 @@ replication-Bachhuber-PNAS-2017/
 │   ├── replication-package/     pnas.1903434116.sd01.csv (Shover et al. 2019, Dataset S1)
 │   └── clean/                   analysis_data.csv, created by 01_cleaning.R
 ├── reference papers/            PDFs of the two papers
-└── results/
-    ├── tables/                  .csv and .tex tables
-    └── figures/                 .png figures
+├── results/
+│   ├── tables/                  .csv and .tex tables
+│   └── figures/                 .png figures
+└── slides/                      Presentation slides (PDF)
 ```
 
 ## How to reproduce
 
 
-1. Open R with the project folder (`replication-Bachhuber-PNAS-2019`) as the working directory, or open the folder as an RStudio project. All paths are built with `here()`, so nothing depends on where the folder sits on your computer.
+1. Open R with the project folder (`replication-Shover-PNAS-2019`) as the working directory, or open the folder as an RStudio project. All paths are built with `here()`, so nothing depends on where the folder sits on your computer.
 2. Run the scripts in order:
 
 ```r
